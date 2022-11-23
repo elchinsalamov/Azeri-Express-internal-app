@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(136, 10, 174);
+    font-family: sans-serif;
+    color: #fff;
+    margin: 0;
+}
+
+.container {
+    margin: 0, 1rem;
+}
+
+.navbarlogo img {
+    width: 300px;
+    height: 30px;
+}
+
+.navbar {
+    display: flex;
+    border-bottom: 1px black solid;
+   
+}
+
+.navbar-left {
+    display: flex;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-right .form-control {
+    width: 100px;
+}
+
+.navbar-right li {
+    list-style: none;
+    margin: 10px;
+}
+
+.left-menu-items a {
+    text-decoration: none;
+    color: #fff;
+}

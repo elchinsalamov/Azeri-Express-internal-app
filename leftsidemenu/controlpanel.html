@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>idarə paneli - Azəri Express</title>
+    <link href="https://app.azeriexpress.com/images/favicon.svg" rel="shortcut icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/77fdd6220b.js" crossorigin="anonymous"></script>
+    <style>
+
+        main {
+            background-color: rgb(236, 226, 226);
+            height: 100vh;
+        }
+
+        .boxes {
+            display: flex;
+            box-sizing: content-box;
+            padding: 10px;
+            width: 70%;
+            justify-content: space-between;
+            margin-right: 0;
+            margin-left: 20%;
+        }
+
+        .box {
+            background-color: #fff;
+            width: 23%;
+            border: 1px black solid;
+            padding: 10px;
+            color: black;
+            border-radius: 5px;          
+            transition: 0.2s;
+        }
+
+        h6 {
+            text-align: center;
+        }
+        
+        h3 {
+            color: black;
+            margin-left: 21%;
+            padding-top: 30px;
+        }
+
+        .box:hover {
+            transform: scale(1.1);
+            transition: transform 0.2s;
+        }
+
+    </style>
+</head>
+  <body>
+    <div class="container">
+        <div class="header">
+            <!--navbar beginning-->
+            <nav class="navbar">
+                <div class="navbar-left">
+                    <a href="#" class="navbarlogo"><img src="/logo/azeriexpress-logo.svg" alt="Azeri Express logo"></a>
+                    <p>İdarə paneli</p>
+                </div>
+                <ul class="navbar-right">
+                    <li class="navbar-right-item">
+                      <input class="form-control me-2" type="search" placeholder="Barcode, Waybill, ID" aria-label="Search">
+                      <!-- <span><i class="fa-light fa-magnifying-glass"></i></span> -->
+                    </li>
+                    <li><a href="#"><span><i class="fa-thin fa-bell"></i></span>logo1</a></li>
+                    <li><a href="#">logo2</a></li>
+                    <li><a href="#">logo3</a></li>
+                </ul>
+            </nav>
+            <!--navbar ending-->
+        </div>
+    </div>
+    <main>
+        <h3>İdarə paneli</h3>
+        <div class="boxes">
+            <div class="box">
+                <h6>Korporativ müştərilər</h6>
+                <p>Aktiv</p>
+                <p>Hamısı</p>
+            </div>
+            <div class="box">
+                <h6>Fiziki şəxslər</h6>
+                <p>Aktiv</p>
+                <p>Hamısı</p>
+            </div>
+            <div class="box">
+                <h6>Kuryerlər</h6>
+                <p>Aktiv</p>
+                <p>Hamısı</p>
+            </div>
+            <div class="box">
+                <h6>Sifarişlər</h6>
+                <p>Aktiv</p>
+                <p>Hamısı</p>
+            </div>
+        </div>
+    </main>
+    
+    
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
